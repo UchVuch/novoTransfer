@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./images/ico.png">
+  <title>Ново Трансфер</title>
+  <link href="./css/fonts.css" rel="stylesheet">
+  <link href="./css/reset.css" rel="stylesheet">
+  <link href="./css/swiper-bundle.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/media.css" rel="stylesheet">
+  <script defer src="./js/inputmask.min.js"></script>
+  <script defer src="./js/justvalidate.min.js"></script>
+  <script defer src="./js/swiper-bundle.min.js"></script>
+  <script defer src="./js/index.js"></script>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 hidden>Ново Трансфер — новый транспортный стандарт</h1>
+          <p class="hero__text">
+            Пусть Ваши ценности совпадают с ценностями
+            <br>Ваших партнёров и клиентов
+          </p>
+          <div class="logo">
+            <img class="logo__image" src="./images/logo.svg" alt="Логотип ново трансфер">
+            <span class="logo__text">новый транспортный стандарт</span>
+          </div>
+          <p class="hero__text">
+            с 2012 года осуществляет услуги юридическим лицам и компаниям по перевозке пассажиров в любой точке мира по
+            стандартам SLA
+          </p>
+        </div>
+      </div>
+    </section>
+    <main class="main">
+      <section class="car-park">
+        <div class="container">
+          <div class="car-park__description">
+            <div class="car-park__left">
+              <h2 class="car-park__title title text-primary">Автопарк</h2>
+              <p class="car-park__text">
+                Мы предоставляем транспорт с водителем от легкового автомобиля до автобусов
+                любой вместимости
+              </p>
+            </div>
+            <div class="car-park__right">
+              <img class="car-park__image" src="./images/avto/park-preview.jpg" alt="Mercedes" width="201" height="96">
+              <button class="car-park__button button" data-park-open="false">
+                <span>Посмотреть автопарк</span>
+                <img src="./images/icons/eye.svg" aria-hidden="true">
+              </button>
+            </div>
+          </div>
+          <div class="car-park__bottom">
+            <ul class="car-park__list" data-park>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/standart.jpg" alt="Skoda Rapid" width="300"
+                  height="200">
+                <h3 class="car-card__title">Стандарт</h3>
+                <p class="car-card__description">
+                  Skoda Rapid и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/business.jpg" alt="Toyota Camry" width="300"
+                  height="200">
+                <h3 class="car-card__title">Бизнес</h3>
+                <p class="car-card__description">
+                  Toyota Camry и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/business-plus.jpg" alt="Mercedes-Benz E-Class"
+                  width="300" height="200">
+                <h3 class="car-card__title">Бизнес +</h3>
+                <p class="car-card__description">Mercedes-Benz E-Class и подобные</p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/executive.jpg" alt="Mercedes-Benz S-Class W222"
+                  width="300" height="200">
+                <h3 class="car-card__title">Представительский</h3>
+                <p class="car-card__description">
+                  Mercedes-Benz S-Class W222
+                  и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/buses.jpg" alt="Yutong" width="300" height="200">
+                <h3 class="car-card__title">Автобусы</h3>
+                <p class="car-card__description">
+                  Yutong и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/minivan.jpg" alt="Volkswagen Caravelle" width="300"
+                  height="200">
+                <h3 class="car-card__title">Минивэн</h3>
+                <p class="car-card__description">
+                  Volkswagen Caravelle и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/minibus.jpg" alt="Mercedes-Benz Sprinter" width="300"
+                  height="200">
+                <h3 class="car-card__title">Микроавтобус</h3>
+                <p class="car-card__description">
+                  Mercedes-Benz Sprinter
+                  и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/сargo.jpg" alt="Mercedes-Benz Sprinter" width="300"
+                  height="200">
+                <h3 class="car-card__title">Грузовой</h3>
+                <p class="car-card__description">
+                  грузовые авто
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/minivan-vip.jpg" alt="Mercedes-Benz V-Class" width="300"
+                  height="200">
+                <h3 class="car-card__title">Минивэн VIP</h3>
+                <p class="car-card__description">
+                  Mercedes-Benz V-Class и подобные
+                </p>
+              </li>
+              <li class="car-park__item car-card">
+                <img class="car-card__image" src="./images/avto/minibus-second.jpg" alt="Mercedes-Benz Sprinter"
+                  width="300" height="200">
+                <h3 class="car-card__title">Микроавтобус</h3>
+                <p class="car-card__description">
+                  Mercedes-Benz Sprinter
+                  и подобные
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <h2 class="advantages__title title">Почему мы и наши преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/comfort.png" width="109" height="109"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Комфорт</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Комфорт</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/punctuality.png" width="109" height="109"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Пунктуальность</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Пунктуальность</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/competitiveness.png" width="93" height="93"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Прозрачность и конкурентные цены</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Прозрачность и конкурентные цены</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/support.png" width="104" height="104"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Круглосуточная поддержка</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Круглосуточная поддержка</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/integration.png" width="101" height="128"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Интеграция заказов</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Интеграция заказов</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/online-order.png" width="100" height="100"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Возможность оформления online на сайте</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Возможность оформления online на сайте</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/manager.png" width="104" height="104"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Персональный менеджер</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Персональный менеджер</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/drivers.png" width="167" height="167"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Профессиональные и опытные водители</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Профессиональные и опытные водители</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/credit.png" width="108" height="108"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Постоплата и безналичный расчет</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Постоплата и безналичный расчет</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/quality.png" width="114" height="114"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Собственный отдел контроля качества</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Собственный отдел контроля качества</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/insurance.png" width="92" height="104"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Дополнительное страхование всех поездок</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Дополнительное страхование всех поездок</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/nds.png" width="100" height="100"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Работа с НДС и без НДС</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Работа с НДС и без НДС</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="advantages__title title">Дополнительные услуги:</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/translator.png" width="116" height="116"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Гид-переводчик</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Гид-переводчик</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/vip-room.png" width="84" height="84"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Бронирование VIP-залов</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Бронирование VIP-залов</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item advantage">
+              <div class="advantage__main">
+                <img class="advantage__image" src="./images/advantages/track.png" width="98" height="98"
+                  aria-hidden="true">
+                <h3 class="advantage__main-title">Fast Track</h3>
+              </div>
+              <div class="advantage__desc">
+                <h3 class="advantage__desc-title">Fast Track</h3>
+                <p class="advantage__text">
+                  Вежливые водители, дресс-код, никакой неприятной музыки, запаха дыма, и назойливых разговоров. При
+                  междугородних поездках в каждом автомобиле имеется подушка и плед. Детские кресла для всех возрастов.
+                  Помощь в переноске багажа.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="mission">
+        <div class="container">
+          <p class="mission__text">Наша миссия:</p>
+          <h2 class="mission__title title">Ваш залог успеха — быть в нужное время, в нужном месте</h2>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title title text-primary">Контактная информация</h2>
+          <div class="contacts__inner">
+            <div class="contatcs__left">
+              <div class="contacts__item">
+                <p class="contacts__item-desc">Главный офис компании расположен:</p>
+                <div class="contacts__content">
+                  <p>г. Новосибирск,</p>
+                  <p>ул. Немировича-Данченко, 167, офис 8</p>
+                </div>
+              </div>
+              <div class="contacts__item">
+                <p class="contacts__item-desc">Круглосуточная служба поддержки:</p>
+                <div class="contacts__content">
+                  <a class="tel" href="tel:+88005550412">8 (800) 555-04-12</a>
+                  <a class="email" href="mailto:zakaz@novotransfer.com">zakaz@novotransfer.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="contatcs__right">
+              <div class="contacts__item">
+                <p class="contacts__item-desc">Директор по развитию:</p>
+                <div class="contacts__content">
+                  <p>Сторчак Ольга</p>
+                  <a class="tel" href="tel:+79137350645">+7 (913) 735-06-45</a>
+                  <a class="email" href="mailto:ntgroup2@novotransfer.com">ntgroup2@novotransfer.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__title title text-primary">Хотите попробовать?!</h2>
+        <p class="footer__text">Оставьте свой контакт и мы обязательно с Вами свяжемся</p>
+        <form class="footer-form">
+          <div class="footer-form__inner">
+            <div class="form__item">
+              <label for="name">Имя</label>
+              <input class="form__input" type="text" id="name" placeholder="Константин">
+            </div>
+            <div class="form__item">
+              <label for="telephone">Телефон</label>
+              <input class="form__input" type="text" id="telephone" placeholder="+7 (000) 000-00-00">
+            </div>
+            <div class="form__item">
+              <label for="title">Название компании</label>
+              <input class="form__input" type="text" id="title" placeholder="ООО Константа">
+            </div>
+            <div class="form__item">
+              <label for="email">Почта</label>
+              <input class="form__input" type="text" id="email" placeholder="constantinmain@mail.ru">
+            </div>
+          </div>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
