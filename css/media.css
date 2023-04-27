@@ -1,0 +1,190 @@
+@media (max-width: 900px) {
+  .hero::before {
+    height: 450px;
+  }
+  
+  .mission::before {
+    left: auto;
+    width: 450px;
+    background-position: left top;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 740px) {
+  /*car-park*/
+  .car-park {
+    padding: 30px 0;
+  }
+
+  .car-park__right {
+    padding: 0;
+  }
+
+  .car-park__list {
+    row-gap: 20px;
+  }
+
+  .car-park__description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts__inner {
+    flex-direction: column;
+  }
+
+  .contacts__item {
+    margin-bottom: 15px;
+  }
+
+  .contacts__item-desc {
+    margin-bottom: 15px;
+  }
+
+  .form__item {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 620px) {
+  :root {
+    --container-padding: 15px;
+  }
+
+  .body {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  /*hero*/
+  .hero::before {
+    height: 175px;
+  }
+
+  .hero__inner {
+    max-width: 343px;
+    padding: 30px 0 38px;
+  }
+
+  .hero__text:not(:last-child) {
+    max-width: 225px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    max-width: 225px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .logo__image {
+    margin-bottom: 10px;
+  }
+
+  .logo__text {
+    font-size: 14px;
+    line-height: 35px;
+    color: #E84A0D;
+  }
+
+  /*mission*/
+  .mission {
+    padding: 30px 0;
+  }
+
+  .mission::before,
+  .mission::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .mission::before {
+    left: 0;
+    z-index: -1;
+    width: auto;
+    background-image: url(../images/mission-bg-mini.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto;
+  }
+
+  .mission__text {
+    margin-bottom: 20px;
+  }
+
+  .mission__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  /*contacts*/
+  .contacts {
+    padding: 60px 0 34px;
+  }
+
+  .contacts__title {
+    margin-bottom: 15px;
+  }
+
+  .contacts__content {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .tel {
+    margin: 15px 0;
+  }
+
+  /*footer*/
+  .footer {
+    position: relative;
+    padding: 30px 0 138px;
+  }
+
+  .footer::before {
+    height: 221px;
+    top: auto;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+  }
+
+  .footer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    background-color: #EFEFEF;
+  }
+
+  .footer__title {
+    margin-bottom: 15px;
+  }
+
+  .footer__text {
+    margin-bottom: 30px;
+  }
+
+  .footer-form {
+    padding: 30px 20px 30px;
+  }
+
+  .footer-form__inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+}
