@@ -2,11 +2,11 @@ const toggleBtnPark = document.querySelector('[data-park-open]')
 const listPark = document.querySelector('[data-park]')
 const openBtnPark = `
   <span>Свернуть</span>
-  <img src="./images/icons/eye-slash.svg" aria-hidden="true"></img>
+  <img src="./images/icons/eye-slash.svg" aria-hidden="true" width="16" height="17"></img>
 `
 const closeBtnPark = `
   <span>Посмотреть автопарк</span>
-  <img src="./images/icons/eye.svg" aria-hidden="true">
+  <img src="./images/icons/eye.svg" aria-hidden="true" width="16" height="17">
 `
 
 function togglePark() {
@@ -39,9 +39,7 @@ let advantageSlider1 = null
 let advantageSlider2 = null
 let carParkSlider = null
 function mobileSlider() {
-  console.log('функция')
   if (window.innerWidth <= 620 && "false" == $advantageSlider1.dataset.mobile) {
-    console.log('активировать')
     advantageSlider1 = new Swiper($advantageSlider1, {
       slidesPerView: 2,
       slidesPerGroup: 2,
@@ -81,7 +79,6 @@ function mobileSlider() {
     $carParkSlider.dataset.mobile = "true"
   }
   if (window.innerWidth > 620) {
-    console.log('деактивировать')
     $advantageSlider1.dataset.mobile = "false"
     $advantageSlider2.dataset.mobile = "false"
     $advantageSlider2.dataset.mobile = "false"
